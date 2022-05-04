@@ -1,0 +1,376 @@
+* {
+  padding: 0px;
+  margin: 0;
+  text-decoration: none;
+}
+
+/*-------- HEADER --------*/
+
+.aling_img {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 15px;
+  padding: 0px 10px;
+}
+
+.card_apresentacao {
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #5E5E4A;
+  font-size: 10px;
+  color: white;
+  padding: 8px 20px;
+}
+
+/*-------- NAVEGAÇÃO MENU --------*/
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.nav_links {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_links a {
+  padding: 0px 50px;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  color: black;
+}
+
+.nav_links a:hover {
+  border-bottom: 1px solid black;
+  
+}
+
+.logo_nave_menu {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid black;
+  padding: 10px;
+  margin-left: -500px;
+}
+
+.menu_pesquisa input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/*-------- SECTION INICIO --------*/
+#section_inicio {
+  display: flex;
+}
+
+.img_apresentacao_inicio img{
+  width: 1400px;
+  margin-left: 100px;
+}
+
+.logo_mark {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: -200px;
+}
+
+.logo_mark h2 {
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+.logo_mark h1 {
+  font-size: 120px;
+  line-height: 100px;
+  margin-bottom: 50px;
+}
+
+.logo_mark p {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.logo_mark a {
+  color: white;
+  background-color: #5E5E4A;
+  padding: 25px 50px;
+  border-radius: 5px; 
+}
+
+/*-------- SECTION SOBRE --------*/
+#section_sobre {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section_sobre h2 {
+  font-size: 60px;
+  border-bottom: 3px solid #5E5E4A;
+  width: 500px;
+  margin: auto;
+}
+
+#section_sobre p {
+  width: 700px;
+  margin: auto;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.card_imagens img {
+  width: 450px;
+  height: 700px;
+  margin-top: 100px;
+}
+
+/*-------- SECTION CUIDADOS COM A PELE --------*/
+
+#section_cuidados {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5E5E4A;
+}
+
+#section_cuidados h2 {
+  text-align: left;
+  color: white;
+  font-size: 55px;
+  margin-left: 180px;
+}
+
+#cuidados-com-a-pele {
+  margin-top: 80px;
+}
+
+#ordem-dos-produtos {
+  margin-bottom: 100px;
+}
+
+#section_cuidados h3 {
+  color: white;
+  font-size: 25px;
+  margin-left: 180px;
+}
+
+#section_cuidados p {
+  color: white;
+  margin-left: 200px;
+  text-align: justify;
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#cuidados_img {
+  width: 280px;
+  margin-left: 150px;
+}
+
+/*-------- SECTION PRODUTOS --------*/
+
+#section_produtos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.card_produto {
+  align-items: center;
+  text-align: center;
+}
+.card_produto img{
+  width: 400px;
+  height: 400px;
+}
+
+.card_produto p {
+  font-size: 22px;
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: #5E5E4A;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+
+#section_produtos_logo h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  border-bottom: 3px solid #5E5E4A;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#section_produtos_logo p {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*-------- SECTION CONTATO --------*/
+#section_contato {
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#section_contato h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #5E5E4A;
+  width: 300px;
+  margin-left: 250px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#section_contato p {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 250px;
+  width: 600px;
+}
+
+#imagem_footer img {
+  width: 1200px;
+  margin-left: -100px;
+}
+
+.card_display img {
+  width: 30px;
+  padding: 0px 20px;
+
+}
+
+.card_display {
+  display: flex;
+}
+
+.container_img {
+  margin-left: 200px;
+  margin-top: 50px;
+  
+}
+
+.card_display {
+  margin-bottom: 20px;
+}
+
+.card_display a {
+  font-size: 20px;
+  color: black;
+}
+
+
+
+/*-------- SECTION FORMULÁRIO --------*/
+
+.container_form {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+  margin: auto;
+
+  font-family: 'Inter', sans-serif;
+}
+
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.form-image img {
+  width: 31rem;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 3rem;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  font-size: 30px;
+}
+
+.form-header h1::after {
+  content: '';
+  display: block;
+  width: 15rem;
+  height: 0.3rem;
+  background-color: #5E5E4A;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #5E5E4A;
+}
+
+.input-box label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: black;
+}
+
+.salve-button {
+  align-items: center;
+  text-align:center ;
+}
+
+.salve-button button a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  padding: 20px 80px;
+}
+
